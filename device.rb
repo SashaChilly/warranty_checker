@@ -2,7 +2,7 @@ class Device
   attr_accessor :imei
 
   def initialize(imei)
-  	check_on_apple_website(imei)
+    check_on_apple_website(imei)
   end
 
   def check_on_apple_website(imei)
